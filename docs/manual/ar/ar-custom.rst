@@ -65,6 +65,7 @@ What are the arguments are passed to the script?
 #. Alert id (uniq for every alert) 
 #. Rule id 
 #. Agent name/host
+#. Location
 #. Filename
 
 .. code-block:: sh 
