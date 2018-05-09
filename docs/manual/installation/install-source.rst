@@ -29,7 +29,8 @@ More information on thse can be found on the `OSSEC Architecture page <../ossec-
         # ./install.sh
 
 3. The OSSEC manager listens on UDP port 1514. Any firewall sbetween the agents and 
-   the manager will need to allow this traffic.
+   the manager will need to allow this traffic. An agent may have to be added for 
+   `ossec-remoted` to listen on port 1514.
 
 4. The server, agent, and hybrid installations will require additional configuration. 
    More information can be found on the `Managing the agents page <../agent/agent-management.html>`_.
