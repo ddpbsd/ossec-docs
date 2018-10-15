@@ -178,7 +178,7 @@
     This will listen for zeromq on the Unix Domain socket /alerts-zmq. 
 
 
-.. xml:element:: geoip_db_path
+.. xml:element:: geoipdb
 
     The full path to the GeoIP IPv4 database file location.
 
@@ -186,7 +186,7 @@
 
     .. code-block:: console
 
-       <geoip_db_path>/etc/GeoLiteCity.dat</geoip_db_path>
+       <geoipdb>/var/ossec/etc/GeoLiteCity.dat</geoipdb>
 
 .. xml:element geoip6_db_path
 
