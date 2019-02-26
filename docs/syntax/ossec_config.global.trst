@@ -95,7 +95,8 @@
 
 .. xml:element:: logall 
 
-    States if we should store all the events received.
+    Controls whether all messages received by the OSSEC server will be archived to `/var/ossec/logs/archives/archives.log`.
+    If enabled, the messages will be prepended with a header by OSSEC.
 
     **Default:** no
 
