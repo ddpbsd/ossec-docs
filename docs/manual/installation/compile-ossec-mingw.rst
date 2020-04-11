@@ -29,11 +29,17 @@ Change directory to the src directory:
 
    # cd ossec-hids-XXX/src
 
+Make sure the external code is prepared:
+
+.. code-block:: console
+
+   # make TARGET=winagent external
+
 Now run ``make TARGET=winagent``:
 
 .. code-block:: console
 
-   # make TARGET=winagent
+   # env PCRE2_SYSTEM=no make TARGET=winagent
 
 This should produce a good amount of compilation output that ends with:
 
