@@ -158,6 +158,12 @@ To use the system's pcre2 libraries, add the pcre2 development package:
 
    zypper install pcre2-devel
 
+Easy copy and paste command:
+
+.. code-block:: console
+
+   zypper install gcc make lib-devel pcre2-devel libevent-devel
+
 If database support is needed the package mysql-devel and/or postgresql-devel will
 need to be installed.
 
