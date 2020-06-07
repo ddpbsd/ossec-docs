@@ -162,7 +162,7 @@ Easy copy and paste command:
 
 .. code-block:: console
 
-   zypper install gcc make lib-devel pcre2-devel libevent-devel
+   zypper install gcc make lib-devel pcre2-devel libevent-devel openssl-devel
 
 If database support is needed the package mysql-devel and/or postgresql-devel will
 need to be installed.
